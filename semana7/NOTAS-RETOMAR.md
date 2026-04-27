@@ -55,14 +55,14 @@ $env:ORACLE_PASSWORD = "tu_contraseña"
 # Si hace falta:
 # $env:ORACLE_TNS_ADMIN = "C:\ruta\completa\Wallet_miQuintaBD"
 
-cd "C:\Users\lisbe\OneDrive\Escritorio\semana_7_backend\bi7_Exp3_S7_Lisbeth_Bilbao\semana7"
+cd "C:\Users\lisbe\OneDrive\Escritorio\semana_7_backend\bi6_Exp3_S7_Lisbeth_Bilbao\semana7"
 mvn spring-boot:run "-Dspring-boot.run.arguments=--spring.profiles.active=oracle"
 ```
 
 ### Arranque con H2 (desarrollo local habitual)
 
 ```powershell
-cd "C:\Users\lisbe\OneDrive\Escritorio\semana_7_backend\bi7_Exp3_S7_Lisbeth_Bilbao\semana7"
+cd "C:\Users\lisbe\OneDrive\Escritorio\semana_7_backend\bi6_Exp3_S7_Lisbeth_Bilbao\semana7"
 mvn spring-boot:run
 ```
 
