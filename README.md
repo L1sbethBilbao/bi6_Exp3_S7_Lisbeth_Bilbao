@@ -2,11 +2,11 @@
 
 **Gamer’s Heaven** — mantenedor CRUD de videojuegos con Spring Boot, JPA, validación, Oracle (perfil `oracle`) y H2 (perfil `h2` por defecto).
 
-Código Maven en la carpeta `semana6/`.
+Código Maven en la carpeta `semana7/` (paquete base `com.duoc.semana7`).
 
 ## Arranque
 
-- **H2 (local):** `mvnw spring-boot:run` desde `semana6/`
+- **H2 (local):** `mvnw spring-boot:run` desde `semana7/`
 - **Oracle Cloud:** definir `ORACLE_TNS_ADMIN`, `ORACLE_PASSWORD` (y opcionalmente `ORACLE_USER`) y ejecutar con `--spring.profiles.active=oracle`
 
 ## Evidencias

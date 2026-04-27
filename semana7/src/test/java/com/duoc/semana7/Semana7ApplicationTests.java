@@ -1,0 +1,15 @@
+package com.duoc.semana7;
+
+import org.junit.jupiter.api.Test;
+import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.test.context.ActiveProfiles;
+
+@SpringBootTest
+@ActiveProfiles("h2")
+class Semana7ApplicationTests {
+
+	@Test
+	void contextLoads() {
+	}
+
+}
