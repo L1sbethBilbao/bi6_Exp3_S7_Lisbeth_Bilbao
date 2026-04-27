@@ -1,0 +1,7 @@
+-- 1. Crear el usuario para la aplicación
+CREATE USER APP_GAMERS IDENTIFIED BY "TuClaveSegura123";
+
+-- 2. Darle permisos básicos de entrada y recursos
+GRANT CREATE SESSION TO APP_GAMERS;
+GRANT CREATE TABLE TO APP_GAMERS;
+ALTER USER APP_GAMERS QUOTA UNLIMITED ON DATA;
